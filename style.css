@@ -23,6 +23,7 @@ header {
     width: 50%;
     color: #054950;
     font-size: 42px;
+    font-family: 'Caveat', cursive;
 }
 
 nav {
@@ -45,8 +46,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #F78F1E;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
 }
+
+nav ul li a:hover {
+    color: #054950;
+    transition-duration: 1000ms;
+}
+
+
 
 /*Main*/
 
@@ -74,6 +83,23 @@ main h2 {
     margin: 30px auto;
     color: #054950;
     font-size: 32px;
+    font-family: 'Caveat', cursive;
+}
+
+main h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+main h4 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+}
+
+main p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 main .topgrid {
@@ -102,6 +128,18 @@ main .botgrid{
     border-radius: 5px;
 }
 
+.box h3 {
+    margin: 5px 0;
+}
+
+.box h4 {
+    margin: 5px 0;
+}
+
+.box p {
+    margin: 5px 0;
+}
+
 
 main .color1 {
     background-color: #054950;
@@ -128,4 +166,26 @@ main .color4 {
 main .color5 {
     background-color: #FFFFFF;
     color: #054950;
+}
+
+.fontcontainer {
+    background-color: #EDF4F5;
+    padding: 10% 1%;
+    width: 100%;
+    height: 655px;
+}
+
+.caveat {
+    width: 45%;
+    display: inline-block;
+}
+
+.caveatsample {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+.mplus{
+    width: 45%;
+    float: right;
 }
